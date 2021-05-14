@@ -723,10 +723,6 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.2D.Animation.Samples.Dependency.csproj">
-      <Project>{F08E977E-D5C4-CDC3-087B-AD40E181C1F4}</Project>
-      <Name>Unity.2D.Animation.Samples.Dependency</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Samples.Runtime.csproj">
       <Project>{227E3AB8-7E33-524A-BA62-C573C3363CAD}</Project>
       <Name>Unity.2D.Animation.Samples.Runtime</Name>
@@ -734,6 +730,10 @@
     <ProjectReference Include="Unity.2D.Animation.Samples.Editor.csproj">
       <Project>{CA6BB383-E0C7-E8C5-1B50-BAE1BEC94E61}</Project>
       <Name>Unity.2D.Animation.Samples.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Samples.Dependency.csproj">
+      <Project>{F08E977E-D5C4-CDC3-087B-AD40E181C1F4}</Project>
+      <Name>Unity.2D.Animation.Samples.Dependency</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
