@@ -75,6 +75,7 @@
      <Compile Include="Assets\Wooyoung\Obstacle\Obstacle3.cs" />
      <Compile Include="Assets\Wooyoung\Obstacle\Obstalce1.cs" />
      <Compile Include="Assets\Wooyoung\ObstacleMaker.cs" />
+     <Compile Include="Assets\Wooyoung\TouchFlat\SendCharacterSizeToBar.cs" />
      <Compile Include="Assets\character\PlayerMovement1.cs" />
      <None Include="Assets\UIUX\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\UIUX\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
