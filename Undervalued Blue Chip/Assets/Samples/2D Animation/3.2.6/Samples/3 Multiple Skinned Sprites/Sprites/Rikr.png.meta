@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 036e5d1dec89b4a449390d4d1288067f
+guid: 03dd75f4af23cf94d9471adbe460b09d
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -21,7 +21,7 @@ TextureImporter:
       213: 21300010
     second: Rikr_Arm_R
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -75,6 +75,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform

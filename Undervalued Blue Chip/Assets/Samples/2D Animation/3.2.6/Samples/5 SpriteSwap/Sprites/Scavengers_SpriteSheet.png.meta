@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6b750765a9e73934383c8285cef51320
+guid: 659af7987103fd848a2db8dbd87520af
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -168,7 +168,7 @@ TextureImporter:
       213: -7795444107844065276
     second: Scavengers_SpriteSheet_54
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -222,6 +222,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
