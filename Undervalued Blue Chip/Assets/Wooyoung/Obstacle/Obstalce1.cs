@@ -16,25 +16,36 @@ public class Obstalce1 : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-   private void Update()
+    private void Destroy()
+    {
+        Destroy(spriteRenderer, 5.0f);
+    }
+
+    private void Update()
     {
         moveDirection = new Vector3(0, -1, 0);
         moveSpeed = Random.Range(13, 20);
         transform.position += moveDirection * moveSpeed * Time.deltaTime;
+
+
+        Destroy();
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        cnt += 1;
         if ( cnt == 1)
         {
             Debug.Log("finish");
             Debug.Log(moveSpeed);
             //player.GetComponent<SpriteRenderer>().color = color;
         }
-        else
-        {
-            cnt += 1;
-        }
+
+        Debug.Log("finish");
+        Debug.Log(moveSpeed);
+
+ 
     }
 
 

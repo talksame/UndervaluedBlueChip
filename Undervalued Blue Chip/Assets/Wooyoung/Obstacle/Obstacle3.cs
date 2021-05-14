@@ -18,11 +18,23 @@ public class Obstacle3 : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
+    private void Destroy()
+    {
+        Destroy(spriteRenderer, 5.0f);
+    }
+
+
+
     private void Update()
     {
         moveDirection = new Vector3(-1, 0, 0);
         moveSpeed = Random.Range(13, 20);
         transform.position += moveDirection * moveSpeed * Time.deltaTime;
+
+
+        Destroy();
+
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
