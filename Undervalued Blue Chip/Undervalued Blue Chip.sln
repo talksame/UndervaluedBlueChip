@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Animation.Samples.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Animation.Samples.Dependency", "Unity.2D.Animation.Samples.Dependency.csproj", "{F08E977E-D5C4-CDC3-087B-AD40E181C1F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Animation.Samples.Editor", "Unity.2D.Animation.Samples.Editor.csproj", "{CA6BB383-E0C7-E8C5-1B50-BAE1BEC94E61}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{4ABC7CF5-99C8-EB1B-1648-F3E2DAEBCCF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Animation.Samples.Editor", "Unity.2D.Animation.Samples.Editor.csproj", "{CA6BB383-E0C7-E8C5-1B50-BAE1BEC94E61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,14 +29,14 @@ Global
 		{F08E977E-D5C4-CDC3-087B-AD40E181C1F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F08E977E-D5C4-CDC3-087B-AD40E181C1F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F08E977E-D5C4-CDC3-087B-AD40E181C1F4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CA6BB383-E0C7-E8C5-1B50-BAE1BEC94E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CA6BB383-E0C7-E8C5-1B50-BAE1BEC94E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CA6BB383-E0C7-E8C5-1B50-BAE1BEC94E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CA6BB383-E0C7-E8C5-1B50-BAE1BEC94E61}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4ABC7CF5-99C8-EB1B-1648-F3E2DAEBCCF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4ABC7CF5-99C8-EB1B-1648-F3E2DAEBCCF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4ABC7CF5-99C8-EB1B-1648-F3E2DAEBCCF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4ABC7CF5-99C8-EB1B-1648-F3E2DAEBCCF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA6BB383-E0C7-E8C5-1B50-BAE1BEC94E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6BB383-E0C7-E8C5-1B50-BAE1BEC94E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6BB383-E0C7-E8C5-1B50-BAE1BEC94E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6BB383-E0C7-E8C5-1B50-BAE1BEC94E61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
