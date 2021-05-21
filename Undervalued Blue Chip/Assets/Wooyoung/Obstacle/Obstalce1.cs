@@ -9,7 +9,7 @@ public class Obstalce1 : MonoBehaviour
     private Vector3 moveDirection = Vector3.zero;
     private Vector3 size_ob = Vector3.zero;
     private int moveSpeed = 0;
-    private float transform_y = 0;
+    private float transform_x = 0.0f;
 
 
     private void Start()
@@ -19,14 +19,14 @@ public class Obstalce1 : MonoBehaviour
     }
     private void Awake()
     {
-        moveSpeed = Random.Range(13, 22);
-        transform_y = Random.Range(10, 20);
+        moveSpeed = Random.Range(13, 27);
+        transform_x = Random.Range(0.2f, 1.0f);
 
     }
 
     private void Destroy()
     {
-        Destroy(spriteRenderer, 2.5f);
+        Destroy(spriteRenderer, 0.5f);
     }
 
     private void Update()
@@ -34,14 +34,15 @@ public class Obstalce1 : MonoBehaviour
         moveDirection = new Vector3(-1, 0, 0);
 
 
-        transform.localScale = new Vector3(transform.localScale.x, transform_y, transform.localScale.z);
+        transform.localScale = new Vector3(transform_x, transform.localScale.y, transform.localScale.z);
         transform.position += moveDirection * moveSpeed * Time.deltaTime;
 
-        Destroy();
+        //Destroy();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("finish");
+        Destroy();
     }
 }

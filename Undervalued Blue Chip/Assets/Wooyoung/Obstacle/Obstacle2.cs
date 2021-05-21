@@ -11,7 +11,7 @@ public class Obstacle2 : MonoBehaviour
     private Vector3 moveDirection = Vector3.zero;
     private Vector3 size_ob = Vector3.zero;
     private int moveSpeed = 0;
-    private float transform_x = 0;
+    private float transform_x = 0.0f;
 
 
     private void Start()
@@ -21,14 +21,14 @@ public class Obstacle2 : MonoBehaviour
     }
     private void Awake()
     {
-        moveSpeed = Random.Range(13, 22);
-        transform_x = Random.Range(15, 30);
+        moveSpeed = Random.Range(13, 35);
+        transform_x = Random.Range(0.25f, 0.45f);
 
     }
 
     private void Destroy()
     {
-        Destroy(spriteRenderer, 2.5f);
+        Destroy(spriteRenderer, 0.5f);
     }
 
     private void Update()
@@ -36,14 +36,15 @@ public class Obstacle2 : MonoBehaviour
         moveDirection = new Vector3(0, -1, 0);
 
 
-        transform.localScale = new Vector3(transform_x , transform.localScale.y, transform.localScale.z);
+        transform.localScale = new Vector3(transform_x, transform.localScale.y, transform.localScale.z);
         transform.position += moveDirection * moveSpeed * Time.deltaTime;
 
-        Destroy();
+        //Destroy();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("finish");
+        Destroy();
     }
 }
