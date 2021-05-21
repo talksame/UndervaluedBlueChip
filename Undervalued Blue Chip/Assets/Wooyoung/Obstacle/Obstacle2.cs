@@ -22,7 +22,7 @@ public class Obstacle2 : MonoBehaviour
     private void Awake()
     {
         moveSpeed = Random.Range(20, 80);
-        transform_x = Random.Range(0.25f, 0.45f);
+        transform_x = Random.Range(0.15f, 0.35f);
 
     }
 

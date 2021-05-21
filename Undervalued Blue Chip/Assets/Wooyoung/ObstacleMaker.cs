@@ -22,7 +22,7 @@ public class ObstacleMaker : MonoBehaviour
         }
         obstacleSpawnTime += Time.deltaTime;
 
-        if ( obstacleSpawnTime > 2.0f)
+        if ( obstacleSpawnTime > 1.5f)
         {
             int index = Random.Range(0, randomPoint.Length);
 
