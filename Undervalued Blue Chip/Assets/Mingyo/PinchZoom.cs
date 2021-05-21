@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MobileTouch : MonoBehaviour
+public class PinchZoom : MonoBehaviour
 {
     float ZOOM_MAX_X = 1.4f;
     float ZOOM_MAX_Y = 1.4f;
@@ -17,10 +17,10 @@ public class MobileTouch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        OnMultiTouch();
+        OnPinch();
     }
 
-    private void OnMultiTouch()
+    private void OnPinch()
     {
         if (Input.touchCount != 2)
         {
