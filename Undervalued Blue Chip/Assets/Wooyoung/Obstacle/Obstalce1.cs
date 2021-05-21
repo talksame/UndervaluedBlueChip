@@ -19,8 +19,8 @@ public class Obstalce1 : MonoBehaviour
     }
     private void Awake()
     {
-        moveSpeed = Random.Range(13, 27);
-        transform_x = Random.Range(0.2f, 1.0f);
+        moveSpeed = Random.Range(20, 45);
+        transform_x = Random.Range(0.2f, 0.6f);
 
     }
 
