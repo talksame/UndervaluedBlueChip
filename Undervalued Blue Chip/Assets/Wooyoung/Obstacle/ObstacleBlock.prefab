@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9026141859835688706}
   - component: {fileID: 340754879211621610}
   - component: {fileID: 4442283540438739913}
-  - component: {fileID: 6041180838649305083}
+  - component: {fileID: 2690179704708796325}
   m_Layer: 0
   m_Name: ObstacleBlock
   m_TagString: Untagged
@@ -131,7 +131,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
---- !u!114 &6041180838649305083
+--- !u!114 &2690179704708796325
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5247189573215508471}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b01fc36450458745af5b3e1eb1f6b10, type: 3}
+  m_Script: {fileID: 11500000, guid: 5562486b9587c46468be117902da1a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 0.63872534, b: 0, a: 1}
+  color: {r: 0, g: 0, b: 0, a: 0}

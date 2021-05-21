@@ -6,36 +6,42 @@ public class Obstalce1 : MonoBehaviour
     [SerializeField]
     private Color color;
     private SpriteRenderer spriteRenderer;
-    private int cnt = 0;
     private Vector3 moveDirection = Vector3.zero;
+    private Vector3 size_ob = Vector3.zero;
     private int moveSpeed = 0;
+    private float transform_y = 0;
 
 
     private void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+    }
+    private void Awake()
+    {
+        moveSpeed = Random.Range(13, 22);
+        transform_y = Random.Range(10, 20);
+
     }
 
-   private void Update()
+    private void Destroy()
     {
-        moveDirection = new Vector3(0, -1, 0);
-        moveSpeed = Random.Range(13, 20);
+        Destroy(spriteRenderer, 2.5f);
+    }
+
+    private void Update()
+    {
+        moveDirection = new Vector3(-1, 0, 0);
+
+
+        transform.localScale = new Vector3(transform.localScale.x, transform_y, transform.localScale.z);
         transform.position += moveDirection * moveSpeed * Time.deltaTime;
+
+        Destroy();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if ( cnt == 1)
-        {
-            Debug.Log("finish");
-            Debug.Log(moveSpeed);
-            //player.GetComponent<SpriteRenderer>().color = color;
-        }
-        else
-        {
-            cnt += 1;
-        }
+        Debug.Log("finish");
     }
-
-
 }
