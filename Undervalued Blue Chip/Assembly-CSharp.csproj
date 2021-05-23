@@ -71,6 +71,7 @@
      <Compile Include="Assets\UIUX\Scripts\SceneChangeQuit.cs" />
      <Compile Include="Assets\UIUX\Scripts\SequenceAnimator.cs" />
      <Compile Include="Assets\Wooyoung\BackGround\BackQuat.cs" />
+     <Compile Include="Assets\Wooyoung\Obstacle\FadeAlarm.cs" />
      <Compile Include="Assets\Wooyoung\Obstacle\Obstacle2.cs" />
      <Compile Include="Assets\Wooyoung\Obstacle\Obstacle3.cs" />
      <Compile Include="Assets\Wooyoung\Obstacle\Obstalce1.cs" />
