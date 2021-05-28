@@ -249,41 +249,62 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Android.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UWP.Extensions">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.Lumin.Extensions">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.AppleTV.Extensions">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll</HintPath>
+ </Reference>
  <Reference Include="Google.IOSResolver_v1.2.165">
- <HintPath>C:/Users/Hojin/OneDrive/문서/GitHub/UndervaluedBlueChip/Undervalued Blue Chip/Assets/ExternalDependencyManager/Editor/Google.IOSResolver_v1.2.165.dll</HintPath>
+ <HintPath>D:/D의 의지/UnderValuedBlueChip/UndervaluedBlueChip/Undervalued Blue Chip/Assets/ExternalDependencyManager/Editor/Google.IOSResolver_v1.2.165.dll</HintPath>
  </Reference>
  <Reference Include="Google.JarResolver_v1.2.165">
- <HintPath>C:/Users/Hojin/OneDrive/문서/GitHub/UndervaluedBlueChip/Undervalued Blue Chip/Assets/ExternalDependencyManager/Editor/Google.JarResolver_v1.2.165.dll</HintPath>
+ <HintPath>D:/D의 의지/UnderValuedBlueChip/UndervaluedBlueChip/Undervalued Blue Chip/Assets/ExternalDependencyManager/Editor/Google.JarResolver_v1.2.165.dll</HintPath>
  </Reference>
  <Reference Include="Google.PackageManagerResolver_v1.2.165">
- <HintPath>C:/Users/Hojin/OneDrive/문서/GitHub/UndervaluedBlueChip/Undervalued Blue Chip/Assets/ExternalDependencyManager/Editor/Google.PackageManagerResolver_v1.2.165.dll</HintPath>
+ <HintPath>D:/D의 의지/UnderValuedBlueChip/UndervaluedBlueChip/Undervalued Blue Chip/Assets/ExternalDependencyManager/Editor/Google.PackageManagerResolver_v1.2.165.dll</HintPath>
  </Reference>
  <Reference Include="Google.VersionHandler">
- <HintPath>C:/Users/Hojin/OneDrive/문서/GitHub/UndervaluedBlueChip/Undervalued Blue Chip/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll</HintPath>
+ <HintPath>D:/D의 의지/UnderValuedBlueChip/UndervaluedBlueChip/Undervalued Blue Chip/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll</HintPath>
  </Reference>
  <Reference Include="Google.VersionHandlerImpl_v1.2.165">
- <HintPath>C:/Users/Hojin/OneDrive/문서/GitHub/UndervaluedBlueChip/Undervalued Blue Chip/Assets/ExternalDependencyManager/Editor/Google.VersionHandlerImpl_v1.2.165.dll</HintPath>
+ <HintPath>D:/D의 의지/UnderValuedBlueChip/UndervaluedBlueChip/Undervalued Blue Chip/Assets/ExternalDependencyManager/Editor/Google.VersionHandlerImpl_v1.2.165.dll</HintPath>
  </Reference>
  <Reference Include="GoogleMobileAds.Common">
- <HintPath>C:/Users/Hojin/OneDrive/문서/GitHub/UndervaluedBlueChip/Undervalued Blue Chip/Assets/GoogleMobileAds/GoogleMobileAds.Common.dll</HintPath>
+ <HintPath>D:/D의 의지/UnderValuedBlueChip/UndervaluedBlueChip/Undervalued Blue Chip/Assets/GoogleMobileAds/GoogleMobileAds.Common.dll</HintPath>
  </Reference>
  <Reference Include="GoogleMobileAds.Core">
- <HintPath>C:/Users/Hojin/OneDrive/문서/GitHub/UndervaluedBlueChip/Undervalued Blue Chip/Assets/GoogleMobileAds/GoogleMobileAds.Core.dll</HintPath>
+ <HintPath>D:/D의 의지/UnderValuedBlueChip/UndervaluedBlueChip/Undervalued Blue Chip/Assets/GoogleMobileAds/GoogleMobileAds.Core.dll</HintPath>
  </Reference>
  <Reference Include="GoogleMobileAds">
- <HintPath>C:/Users/Hojin/OneDrive/문서/GitHub/UndervaluedBlueChip/Undervalued Blue Chip/Assets/GoogleMobileAds/GoogleMobileAds.dll</HintPath>
+ <HintPath>D:/D의 의지/UnderValuedBlueChip/UndervaluedBlueChip/Undervalued Blue Chip/Assets/GoogleMobileAds/GoogleMobileAds.dll</HintPath>
  </Reference>
  <Reference Include="GoogleMobileAds.Unity">
- <HintPath>C:/Users/Hojin/OneDrive/문서/GitHub/UndervaluedBlueChip/Undervalued Blue Chip/Assets/GoogleMobileAds/GoogleMobileAds.Unity.dll</HintPath>
+ <HintPath>D:/D의 의지/UnderValuedBlueChip/UndervaluedBlueChip/Undervalued Blue Chip/Assets/GoogleMobileAds/GoogleMobileAds.Unity.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Users/Hojin/OneDrive/문서/GitHub/UndervaluedBlueChip/Undervalued Blue Chip/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>D:/D의 의지/UnderValuedBlueChip/UndervaluedBlueChip/Undervalued Blue Chip/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -646,22 +667,22 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/Hojin/OneDrive/문서/GitHub/UndervaluedBlueChip/Undervalued Blue Chip/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>D:/D의 의지/UnderValuedBlueChip/UndervaluedBlueChip/Undervalued Blue Chip/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/Hojin/OneDrive/문서/GitHub/UndervaluedBlueChip/Undervalued Blue Chip/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/D의 의지/UnderValuedBlueChip/UndervaluedBlueChip/Undervalued Blue Chip/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Animation.Editor">
- <HintPath>C:/Users/Hojin/OneDrive/문서/GitHub/UndervaluedBlueChip/Undervalued Blue Chip/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+ <HintPath>D:/D의 의지/UnderValuedBlueChip/UndervaluedBlueChip/Undervalued Blue Chip/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Animation.Runtime">
- <HintPath>C:/Users/Hojin/OneDrive/문서/GitHub/UndervaluedBlueChip/Undervalued Blue Chip/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+ <HintPath>D:/D의 의지/UnderValuedBlueChip/UndervaluedBlueChip/Undervalued Blue Chip/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>C:/Users/Hojin/OneDrive/문서/GitHub/UndervaluedBlueChip/Undervalued Blue Chip/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>D:/D의 의지/UnderValuedBlueChip/UndervaluedBlueChip/Undervalued Blue Chip/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Users/Hojin/OneDrive/문서/GitHub/UndervaluedBlueChip/Undervalued Blue Chip/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>D:/D의 의지/UnderValuedBlueChip/UndervaluedBlueChip/Undervalued Blue Chip/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
