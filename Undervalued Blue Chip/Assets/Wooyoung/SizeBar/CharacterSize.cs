@@ -6,7 +6,7 @@ public class CharacterSize : MonoBehaviour
 {
     [SerializeField]
     private float maxSize = 2.0f;
-    private float currentSize;
+    private float currentSize = 0.5f;
 
 
     public float MaxSize => maxSize;

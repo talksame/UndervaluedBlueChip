@@ -15,8 +15,13 @@ public class SizeBarViewer : MonoBehaviour
         sliderSize = GetComponent<Slider>();
     }
 
+    
     private void Update()
     {
-        sliderSize.value = (characterSize.CurrentSize-0.74f) / (characterSize.MaxSize-0.75f);
+        float a = characterSize.CurrentSize - 0.74f;
+        float b = characterSize.MaxSize - 0.75f;
+        sliderSize.value =  a / b;
+    
     }
+    
 }

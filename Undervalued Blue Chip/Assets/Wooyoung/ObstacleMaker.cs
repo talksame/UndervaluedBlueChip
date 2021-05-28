@@ -1,8 +1,43 @@
-﻿
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class ObstacleMaker : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject[] trapArray;
+
+    //[SerializeField]
+    //public MovementTrap[] movementTrap;
+
+    [SerializeField]
+    private float spawnTime;
+
+    [SerializeField]
+    private Transform[] randomPoint;
+
+    private void Awake()
+    {
+        StartCoroutine("SpawnTime");
+    }
+
+    private IEnumerator SpawnTime()
+    {
+
+        while (true)
+        {
+            int index = Random.Range(0, randomPoint.Length);
+            Vector3 position = randomPoint[index].position;
+            Instantiate(trapArray[index], position, Quaternion.identity);
+
+            //Debug.Log(movementTrap[index].getsize());
+            yield return new WaitForSeconds(spawnTime);
+        }
+    }
+}
+
+
+    /*
     [SerializeField]
     private int obstacleCount = 1;
 
@@ -53,6 +88,6 @@ public class ObstacleMaker : MonoBehaviour
         }
 
 
-    }
+    }*/
 
-}
+
