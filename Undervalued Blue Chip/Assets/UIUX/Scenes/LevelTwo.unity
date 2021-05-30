@@ -411,7 +411,7 @@ GameObject:
   - component: {fileID: 530682252}
   - component: {fileID: 530682251}
   m_Layer: 5
-  m_Name: Gameee
+  m_Name: Game
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2324,6 +2324,7 @@ GameObject:
   - component: {fileID: 1692793426}
   - component: {fileID: 1692793425}
   - component: {fileID: 1692793424}
+  - component: {fileID: 1692793427}
   m_Layer: 5
   m_Name: RestartButton
   m_TagString: Untagged
@@ -2394,8 +2395,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: RestartButton
+      - m_Target: {fileID: 1692793427}
+        m_MethodName: LevelTwo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2442,6 +2443,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1692793422}
   m_CullTransparentMesh: 0
+--- !u!114 &1692793427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692793422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d686d099c1898bc478abc568616ba8a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2024715856
 GameObject:
   m_ObjectHideFlags: 0
@@ -2587,6 +2600,7 @@ GameObject:
   - component: {fileID: 2035051968}
   - component: {fileID: 2035051967}
   - component: {fileID: 2035051966}
+  - component: {fileID: 2035051969}
   m_Layer: 5
   m_Name: AgainButton
   m_TagString: Untagged
@@ -2657,8 +2671,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: RestartButton
+      - m_Target: {fileID: 2035051969}
+        m_MethodName: LevelTwo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2705,6 +2719,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2035051964}
   m_CullTransparentMesh: 0
+--- !u!114 &2035051969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035051964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d686d099c1898bc478abc568616ba8a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2110558913
 GameObject:
   m_ObjectHideFlags: 0

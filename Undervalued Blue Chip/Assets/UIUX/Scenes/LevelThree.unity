@@ -2111,6 +2111,7 @@ GameObject:
   - component: {fileID: 1819836573}
   - component: {fileID: 1819836572}
   - component: {fileID: 1819836571}
+  - component: {fileID: 1819836574}
   m_Layer: 5
   m_Name: AgainButton
   m_TagString: Untagged
@@ -2181,8 +2182,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: RestartButton
+      - m_Target: {fileID: 1819836574}
+        m_MethodName: LevelThree
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2229,6 +2230,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1819836569}
   m_CullTransparentMesh: 0
+--- !u!114 &1819836574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819836569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35dd1cb60dd1a614b98b8b27ed226077, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1851164989
 GameObject:
   m_ObjectHideFlags: 0
@@ -2720,6 +2733,7 @@ GameObject:
   - component: {fileID: 2051900172}
   - component: {fileID: 2051900171}
   - component: {fileID: 2051900170}
+  - component: {fileID: 2051900173}
   m_Layer: 5
   m_Name: RestartButton
   m_TagString: Untagged
@@ -2790,8 +2804,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: RestartButton
+      - m_Target: {fileID: 2051900173}
+        m_MethodName: LevelThree
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2838,3 +2852,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051900168}
   m_CullTransparentMesh: 0
+--- !u!114 &2051900173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051900168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35dd1cb60dd1a614b98b8b27ed226077, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
