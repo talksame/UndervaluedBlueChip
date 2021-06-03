@@ -1582,6 +1582,19 @@ MonoBehaviour:
   isTriggered: {fileID: 1021267486}
   isSucceed: {fileID: 1021267487}
   score: 0
+  int_score: 0
+--- !u!114 &1021267489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021267470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d9e476376983e84391f39a62594ddd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1035948674
 GameObject:
   m_ObjectHideFlags: 0
