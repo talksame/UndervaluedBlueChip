@@ -16,8 +16,8 @@ public class SizeBarViewer : MonoBehaviour
     }
 
     private void Update()
-    {/*
+    {
         sliderSize.value = (characterSize.CurrentSize-0.74f) / (characterSize.MaxSize-0.75f);
-    */
+    
      }
 }
