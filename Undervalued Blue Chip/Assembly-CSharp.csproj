@@ -73,6 +73,7 @@
     <Compile Include="Assets\Mingyo\TrainerControl.cs" />
     <Compile Include="Assets\SequenceAnimator.cs" />
     <Compile Include="Assets\UIUX\No Use\ObstacleInstance.cs" />
+    <Compile Include="Assets\UIUX\Scripts\GameOverScreen.cs" />
     <Compile Include="Assets\UIUX\Scripts\GameOverScript.cs" />
     <Compile Include="Assets\UIUX\Scripts\LevelManager.cs" />
     <Compile Include="Assets\UIUX\Scripts\LevelScript.cs" />
@@ -89,7 +90,7 @@
     <Compile Include="Assets\UIUX\Scripts\SceneChangeLv2.cs" />
     <Compile Include="Assets\UIUX\Scripts\SceneChangeLv3.cs" />
     <Compile Include="Assets\UIUX\Scripts\SceneChangeQuit.cs" />
-    <Compile Include="Assets\Wooyoung\BackGround\BackQuat.cs" />
+    <Compile Include="Assets\Wooyoung\Obstacle\BackGround\BackQuat.cs" />
     <Compile Include="Assets\Wooyoung\Obstacle\FadeAlarm.cs" />
     <Compile Include="Assets\Wooyoung\Obstacle\IsTriggered.cs" />
     <Compile Include="Assets\Wooyoung\Obstacle\ObstacleMaker.cs" />

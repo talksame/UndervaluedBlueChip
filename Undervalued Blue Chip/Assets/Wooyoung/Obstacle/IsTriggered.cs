@@ -7,7 +7,7 @@ public class IsTriggered : MonoBehaviour
     [SerializeField]
     public bool isDie = false;
 
-
+    public GameObject GameOverPanel;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Trap"))
@@ -31,7 +31,15 @@ public class IsTriggered : MonoBehaviour
 
     public bool get_die()
     {
+        Debug.Log("isdie");
         return isDie;
     }
 
+    private void Update()
+    {
+        if (isDie == true)
+        {
+            GameOverPanel.SetActive(true);
+        }
+    }
 }
