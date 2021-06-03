@@ -23,7 +23,7 @@ public class ObstacleMaker : MonoBehaviour
 
     private IEnumerator SpawnTime()
     {
-        yield return new WaitForSeconds(2.0f);
+
         while (true)
         {
             int index = Random.Range(0, randomPoint.Length);

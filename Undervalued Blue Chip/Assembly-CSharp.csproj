@@ -73,7 +73,10 @@
     <Compile Include="Assets\Mingyo\TrainerControl.cs" />
     <Compile Include="Assets\SequenceAnimator.cs" />
     <Compile Include="Assets\UIUX\No Use\ObstacleInstance.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\UIUX\Scripts\GameOverScreen.cs" />
+=======
+>>>>>>> parent of 2e18c3a... Add : isSucceed, Score, Sizebar
     <Compile Include="Assets\UIUX\Scripts\GameOverScript.cs" />
     <Compile Include="Assets\UIUX\Scripts\LevelManager.cs" />
     <Compile Include="Assets\UIUX\Scripts\LevelScript.cs" />
@@ -90,6 +93,7 @@
     <Compile Include="Assets\UIUX\Scripts\SceneChangeLv2.cs" />
     <Compile Include="Assets\UIUX\Scripts\SceneChangeLv3.cs" />
     <Compile Include="Assets\UIUX\Scripts\SceneChangeQuit.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Wooyoung\Obstacle\BackGround\BackQuat.cs" />
     <Compile Include="Assets\Wooyoung\Obstacle\FadeAlarm.cs" />
     <Compile Include="Assets\Wooyoung\Obstacle\IsSucceed.cs" />
@@ -97,6 +101,13 @@
     <Compile Include="Assets\Wooyoung\Obstacle\ObstacleMaker.cs" />
     <Compile Include="Assets\Wooyoung\Obstacle\Obstalce1.cs" />
     <Compile Include="Assets\Wooyoung\Obstacle\Score.cs" />
+=======
+    <Compile Include="Assets\Wooyoung\BackGround\BackQuat.cs" />
+    <Compile Include="Assets\Wooyoung\Obstacle\FadeAlarm.cs" />
+    <Compile Include="Assets\Wooyoung\Obstacle\IsTriggered.cs" />
+    <Compile Include="Assets\Wooyoung\Obstacle\ObstacleMaker.cs" />
+    <Compile Include="Assets\Wooyoung\Obstacle\Obstalce1.cs" />
+>>>>>>> parent of 2e18c3a... Add : isSucceed, Score, Sizebar
     <Compile Include="Assets\Wooyoung\Obstacle\Trap.cs" />
     <Compile Include="Assets\Wooyoung\Obstacle\TrapMovement.cs" />
     <Compile Include="Assets\Wooyoung\SizeBar\CharacterSize.cs" />
