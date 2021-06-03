@@ -15,7 +15,7 @@ public class OnCollision : MonoBehaviour
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        halfAlpha = new Color(1, 1, 1, 0.4f);
+        halfAlpha = new Color(1, 1, 1, 0.3f);
         fullAlpha = new Color(1, 1, 1, 1);
         //playerController = GetComponent<PlayerController>();
         //trainer = GameObject.Find("Trainer");
@@ -26,7 +26,7 @@ public class OnCollision : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+
         if (!blinkMode)
         {
             blinkMode = true;
@@ -53,7 +53,7 @@ public class OnCollision : MonoBehaviour
     //{
     //    float destPosX = trainerControl.StartPosX + trainerStep;
     //    Debug.Log(trainerControl.StartPosX + ", " + destPosX + ", " + trainerStep);
-        
+
     //    Vector3 trainerPos = trainerControl.transform.position;
     //    while (trainerControl.transform.position.x <= destPosX)
     //    {
@@ -65,7 +65,7 @@ public class OnCollision : MonoBehaviour
 
     IEnumerator BlinkModeRoutine()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(0.5f);
 
         blinkMode = false;
     }

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7699686853098766099}
   - component: {fileID: 7699686853098766100}
   - component: {fileID: 7699686853098766101}
+  - component: {fileID: -8465667301106211125}
   m_Layer: 0
   m_Name: FadeTrap1
   m_TagString: Trap
@@ -170,5 +171,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b97efd8ff32272746b92f56cbbbfe572, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-8465667301106211125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7699686853098766102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4226fe1c9b2ae044e90832b74c436df1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

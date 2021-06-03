@@ -4,7 +4,7 @@ using UnityEngine;
 public class CameraShake : MonoBehaviour
 {
     [SerializeField]
-    private float shakeIntensity;
+    private float shakeIntensity = 0.5f;
     [SerializeField]
     private float shakeTime;
 
