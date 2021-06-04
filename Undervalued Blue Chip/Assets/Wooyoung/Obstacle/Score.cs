@@ -26,7 +26,7 @@ public class Score : MonoBehaviour
         score += Time.deltaTime*100;
 
         int_score = (int)score;
-        Debug.Log(int_score);
+        //Debug.Log(int_score);
 
 
 

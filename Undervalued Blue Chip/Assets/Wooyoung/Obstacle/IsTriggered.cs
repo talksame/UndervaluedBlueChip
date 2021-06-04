@@ -12,7 +12,8 @@ public class IsTriggered : MonoBehaviour
     {
         if (collision.CompareTag("Trap"))
         {
-            if (collision.gameObject.transform.localScale.x+0.75 < gameObject.transform.localScale.x )
+
+            if (collision.gameObject.transform.localScale.x+0.35 < gameObject.transform.localScale.x )
             {
                 isDie = true;
                 Debug.Log("finish");
