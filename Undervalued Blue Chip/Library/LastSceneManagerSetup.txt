@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/UIUX/Scenes/GameScene.unity
+- path: Assets/UIUX/Scenes/GameLevelone.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

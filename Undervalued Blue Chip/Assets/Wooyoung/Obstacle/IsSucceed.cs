@@ -22,13 +22,14 @@ public class IsSucceed : MonoBehaviour
     {
         float currentTime = 0;
         currentTime += Time.deltaTime;
-        if (successTime < currentTime )
+        if (currentTime > successTime)
         {
-            if ( isTriggered.get_die() == false)
+            if (isTriggered.get_die() == false)
             {
                 isSucceed = true;
             }
         }
+
         //Debug.Log(obstacleSpawnTime);
 
 
