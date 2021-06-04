@@ -22,16 +22,8 @@ public class IsSucceedInf : MonoBehaviour
     {
         float currentTime = 0;
         currentTime += Time.deltaTime;
-        while (true)
-        {
-            if (isTriggered.get_die() == false)
-            {
-                isSucceed = true;
-            }
-        }
 
         //Debug.Log(obstacleSpawnTime);
-
 
     }
 
