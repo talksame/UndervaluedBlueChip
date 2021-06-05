@@ -83,6 +83,7 @@
      <Compile Include="Assets\Wooyoung\BackGround\BackQuat.cs" />
      <Compile Include="Assets\Wooyoung\Obstacle\FadeAlarm.cs" />
      <Compile Include="Assets\Wooyoung\Obstacle\IsSucceed.cs" />
+     <Compile Include="Assets\Wooyoung\Obstacle\IsSucceedInf.cs" />
      <Compile Include="Assets\Wooyoung\Obstacle\IsTriggered.cs" />
      <Compile Include="Assets\Wooyoung\Obstacle\ObstacleMaker.cs" />
      <Compile Include="Assets\Wooyoung\Obstacle\Obstalce1.cs" />

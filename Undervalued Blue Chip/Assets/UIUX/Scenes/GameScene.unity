@@ -1552,6 +1552,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDie: 0
+  character: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  pointsText: {fileID: 0}
+  scr: 0
 --- !u!114 &1021267487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1567,6 +1571,7 @@ MonoBehaviour:
   isTriggered: {fileID: 1021267486}
   isSucceed: 0
   successTime: 40
+  gameSuccessPanel: {fileID: 0}
 --- !u!114 &1021267488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1582,6 +1587,8 @@ MonoBehaviour:
   isTriggered: {fileID: 1021267486}
   isSucceed: {fileID: 1021267487}
   score: 0
+  int_score: 0
+  pointsText: {fileID: 0}
 --- !u!1 &1035948674
 GameObject:
   m_ObjectHideFlags: 0
@@ -2152,7 +2159,7 @@ PrefabInstance:
     - target: {fileID: 4740815379876262001, guid: 5d01118fc5635514e8a9d3ad894b9b61,
         type: 3}
       propertyPath: spawnTime
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4740815379876262001, guid: 5d01118fc5635514e8a9d3ad894b9b61,
         type: 3}

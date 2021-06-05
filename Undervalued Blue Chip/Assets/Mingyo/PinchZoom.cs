@@ -5,9 +5,7 @@ using UnityEngine;
 public class PinchZoom : MonoBehaviour
 {
     float ZOOM_MAX_X = 1.4f;
-    float ZOOM_MAX_Y = 1.4f;
     float ZOOM_MIN_X = 0.7f;
-    float ZOOM_MIN_Y = 0.7f;
     float zoomSpeed = 0.1f;
     // Start is called before the first frame update
     void Start()
@@ -45,11 +43,11 @@ public class PinchZoom : MonoBehaviour
 
         if (previousTouchDistance <= currentTouchDistance)
         {
-            zoomScale = new Vector3(1, 1, 0) * zoomPower;
+            zoomScale = new Vector3(1, 0, 0) * zoomPower;
 
-            if (scaleX + zoomScale.x >= ZOOM_MAX_X && scaleY + zoomScale.y >= ZOOM_MAX_Y)
+            if (scaleX + zoomScale.x >= ZOOM_MAX_X)
             {
-                transform.localScale = new Vector3(ZOOM_MAX_X, ZOOM_MAX_Y, 0);
+                transform.localScale = new Vector3(ZOOM_MAX_X, scaleY, 0);
             }
             else
             {
@@ -58,11 +56,11 @@ public class PinchZoom : MonoBehaviour
         }
         else if (previousTouchDistance > currentTouchDistance)
         {
-            zoomScale = new Vector3(-1, -1, 0) * zoomPower;
+            zoomScale = new Vector3(-1, 0, 0) * zoomPower;
 
-            if (scaleX + zoomScale.x <= ZOOM_MIN_X && scaleY + zoomScale.y <= ZOOM_MIN_Y)
+            if (scaleX + zoomScale.x <= ZOOM_MIN_X)
             {
-                transform.localScale = new Vector3(ZOOM_MIN_X, ZOOM_MIN_Y, 0);
+                transform.localScale = new Vector3(ZOOM_MIN_X, scaleY, 0);
             }
             else
             {
@@ -71,4 +69,3 @@ public class PinchZoom : MonoBehaviour
         }
     }
 }
-
