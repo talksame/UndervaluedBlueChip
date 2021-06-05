@@ -31,7 +31,7 @@ public class TrapMovement : MonoBehaviour
         else if (trapType == 1)
         {
             moveSpeed = Random.Range(20, 80);
-            transform_x = Random.Range(0.25f, 0.45f);
+            transform_x = Random.Range(0.35f, 0.55f);
         }
     }
     void Update()
