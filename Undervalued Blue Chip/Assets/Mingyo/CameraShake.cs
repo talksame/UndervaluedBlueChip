@@ -8,6 +8,9 @@ public class CameraShake : MonoBehaviour
     [SerializeField]
     private float shakeTime;
 
+    [SerializeField]
+    private IsTriggered isTriggered;
+
     private static CameraShake mainCamera;
     public static CameraShake MainCamera => mainCamera;
 
@@ -19,8 +22,14 @@ public class CameraShake : MonoBehaviour
     public void ShakeCamera()
     {
         shakeTime = 0.5f;
-        StopCoroutine(ShakeRoutine());
-        StartCoroutine(ShakeRoutine());
+        if (isTriggered.get_die() == true)
+        {
+            StopCoroutine(ShakeRoutine());
+            StartCoroutine(ShakeRoutine());
+
+            
+        }
+
     }
     IEnumerator ShakeRoutine()
     {

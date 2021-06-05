@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Score : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class Score : MonoBehaviour
     public float score;
     public int int_score;
 
+    public Text pointsText;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,11 +26,16 @@ public class Score : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        score += Time.deltaTime*100;
+        if (isTriggered.get_die() == false)
+        {
+            score += Time.deltaTime * 100;
+          
+            int_score = (int)score;
+            //Debug.Log(int_score);
 
-        int_score = (int)score;
-        //Debug.Log(int_score);
+            pointsText.text = int_score.ToString() + " POINTS";
 
+        }
 
 
     }

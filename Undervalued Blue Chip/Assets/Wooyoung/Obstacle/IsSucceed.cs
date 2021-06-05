@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class IsSucceed : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class IsSucceed : MonoBehaviour
 
     [SerializeField]
     private float successTime = 0.0f;
+
+    public GameObject gameSuccessPanel;
 
     // Start is called before the first frame update
     void Start()
@@ -31,12 +34,15 @@ public class IsSucceed : MonoBehaviour
         }
 
         //Debug.Log(obstacleSpawnTime);
-
-
+        if (isSucceed == true)
+         {
+                gameSuccessPanel.SetActive(true);
+         }
     }
 
     public bool get_suc()
     {
         return isSucceed;
     }
+    
 }
