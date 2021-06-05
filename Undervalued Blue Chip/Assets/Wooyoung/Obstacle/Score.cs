@@ -17,6 +17,7 @@ public class Score : MonoBehaviour
 
     public Text pointsText;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,8 +36,11 @@ public class Score : MonoBehaviour
 
             pointsText.text = int_score.ToString() + " POINTS";
 
-        }
+        int_score = (int)score;
 
+
+        }
+        Debug.Log(int_score);
 
     }
 

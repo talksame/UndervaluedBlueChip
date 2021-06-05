@@ -10,13 +10,17 @@ public class IsTriggered : MonoBehaviour
 
     [SerializeField]
     public GameObject character;
-    
-
-
-
+   
     public GameObject gameOverPanel;
+    public Text pointsText;
 
+    public int scr;
 
+    void Awake()
+    {
+        scr = GameObject.Find("character").GetComponent<Score>().get_score();
+    }
+   
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -45,11 +49,14 @@ public class IsTriggered : MonoBehaviour
     {
         return isDie;
     }
-    public void Update()
+
+
+    private void Update()
     {
-        if(isDie == true)
+        if (isDie == true)
         {
             gameOverPanel.SetActive(true);
+            pointsText.text = scr.ToString() + " POINTS";
         }
     }
 

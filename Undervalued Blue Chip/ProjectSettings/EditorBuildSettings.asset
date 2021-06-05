@@ -4,26 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/StreamingAssets/UIUX/Scenes/LevelScene.unity
-    guid: 79c76e4f4c0b07c40922e93007a13760
-  - enabled: 1
-    path: Assets/StreamingAssets/UIUX/Scenes/GameLevelone.unity
-    guid: 322b3d3a94a876142b28ce38ac5b33d8
-  - enabled: 1
-    path: Assets/StreamingAssets/UIUX/Scenes/GameLeveltwo.unity
-    guid: 884ed0e1a68d7a24ca22457739cdb59c
-  - enabled: 1
-    path: Assets/StreamingAssets/UIUX/Scenes/GameLevelthree.unity
-    guid: b30a501b735e6af4281877b099c68e60
-  - enabled: 1
-    path: Assets/StreamingAssets/UIUX/Scenes/GameLevelinf.unity
-    guid: 30ea5b3e58d1e39479d0efe3944929d5
-  - enabled: 1
-    path: Assets/StreamingAssets/UIUX/Scenes/StartScene.unity
-    guid: f580d9a36a955b94eaece1fa283ae597
-  - enabled: 0
-    path: Assets/StreamingAssets/UIUX/Scenes/GameScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+  m_Scenes: []
   m_configObjects: {}
