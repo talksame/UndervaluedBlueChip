@@ -628,12 +628,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &676273418 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8923584404140093244, guid: bedf8170998034144bde4579a2dda185,
-    type: 3}
-  m_PrefabInstance: {fileID: 8923584404806398518}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &700485696
 GameObject:
   m_ObjectHideFlags: 0
@@ -2158,7 +2152,7 @@ PrefabInstance:
     - target: {fileID: 4740815379876262001, guid: 5d01118fc5635514e8a9d3ad894b9b61,
         type: 3}
       propertyPath: spawnTime
-      value: 3
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4740815379876262001, guid: 5d01118fc5635514e8a9d3ad894b9b61,
         type: 3}
@@ -2168,12 +2162,12 @@ PrefabInstance:
     - target: {fileID: 4740815379876262001, guid: 5d01118fc5635514e8a9d3ad894b9b61,
         type: 3}
       propertyPath: trapArray.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4740815379876262001, guid: 5d01118fc5635514e8a9d3ad894b9b61,
         type: 3}
       propertyPath: randomPoint.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4740815379876262001, guid: 5d01118fc5635514e8a9d3ad894b9b61,
         type: 3}
@@ -2185,7 +2179,7 @@ PrefabInstance:
         type: 3}
       propertyPath: trapArray.Array.data[1]
       value: 
-      objectReference: {fileID: 8635892982303879216, guid: 0fd7f0cd59e1d1d4f9e3ba8fa706067f,
+      objectReference: {fileID: 2924923340787769973, guid: 9e4953d7207a1b84594c987bfb90f09a,
         type: 3}
     - target: {fileID: 4740815379876262001, guid: 5d01118fc5635514e8a9d3ad894b9b61,
         type: 3}
@@ -2273,7 +2267,7 @@ PrefabInstance:
         type: 3}
       propertyPath: randomPoint.Array.data[1]
       value: 
-      objectReference: {fileID: 272764498}
+      objectReference: {fileID: 8923584404806398519}
     - target: {fileID: 4740815379876262001, guid: 5d01118fc5635514e8a9d3ad894b9b61,
         type: 3}
       propertyPath: randomPoint.Array.data[2]
@@ -2283,7 +2277,7 @@ PrefabInstance:
         type: 3}
       propertyPath: randomPoint.Array.data[3]
       value: 
-      objectReference: {fileID: 676273418}
+      objectReference: {fileID: 8923584404806398519}
     - target: {fileID: 4740815379876262001, guid: 5d01118fc5635514e8a9d3ad894b9b61,
         type: 3}
       propertyPath: randomPoint.Array.data[4]
@@ -2835,3 +2829,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bedf8170998034144bde4579a2dda185, type: 3}
+--- !u!4 &8923584404806398519 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8923584404140093244, guid: bedf8170998034144bde4579a2dda185,
+    type: 3}
+  m_PrefabInstance: {fileID: 8923584404806398518}
+  m_PrefabAsset: {fileID: 0}

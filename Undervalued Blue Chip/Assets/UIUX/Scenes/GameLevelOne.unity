@@ -2169,12 +2169,12 @@ PrefabInstance:
     - target: {fileID: 4740815379876262001, guid: 5d01118fc5635514e8a9d3ad894b9b61,
         type: 3}
       propertyPath: trapArray.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4740815379876262001, guid: 5d01118fc5635514e8a9d3ad894b9b61,
         type: 3}
       propertyPath: randomPoint.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4740815379876262001, guid: 5d01118fc5635514e8a9d3ad894b9b61,
         type: 3}
@@ -2186,7 +2186,7 @@ PrefabInstance:
         type: 3}
       propertyPath: trapArray.Array.data[1]
       value: 
-      objectReference: {fileID: 8635892982303879216, guid: 0fd7f0cd59e1d1d4f9e3ba8fa706067f,
+      objectReference: {fileID: 2924923340787769973, guid: 9e4953d7207a1b84594c987bfb90f09a,
         type: 3}
     - target: {fileID: 4740815379876262001, guid: 5d01118fc5635514e8a9d3ad894b9b61,
         type: 3}
@@ -2274,7 +2274,7 @@ PrefabInstance:
         type: 3}
       propertyPath: randomPoint.Array.data[1]
       value: 
-      objectReference: {fileID: 272764498}
+      objectReference: {fileID: 676273418}
     - target: {fileID: 4740815379876262001, guid: 5d01118fc5635514e8a9d3ad894b9b61,
         type: 3}
       propertyPath: randomPoint.Array.data[2]
