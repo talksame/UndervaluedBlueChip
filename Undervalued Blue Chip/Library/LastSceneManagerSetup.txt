@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/UIUX/Scenes/GameLevelINF.unity
+- path: Assets/UIUX/Scenes/LevelScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

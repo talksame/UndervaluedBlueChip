@@ -9,20 +9,17 @@ EditorBuildSettings:
     path: Assets/UIUX/Scenes/LevelScene.unity
     guid: 79c76e4f4c0b07c40922e93007a13760
   - enabled: 1
-    path: Assets/UIUX/Scenes/LevelOne.unity
-    guid: 07b1c4beb4c40a140adb110cd8db3f42
+    path: Assets/UIUX/Scenes/GameLevelOne.unity
+    guid: cf1b301c1bfde5145a89e7075b95649e
   - enabled: 1
-    path: Assets/UIUX/Scenes/LevelTwo.unity
-    guid: 99f51c08d1ee7c64ab1aa32ea266a69a
+    path: Assets/UIUX/Scenes/GameLevelTwo.unity
+    guid: 3f0fa3adca9c0ea4e9f5ce26e243cae1
   - enabled: 1
-    path: Assets/UIUX/Scenes/LevelThree.unity
-    guid: 34aa243d3a4d2834a850002255e7aa32
+    path: Assets/UIUX/Scenes/GameLevelThree.unity
+    guid: 1f0820671cf14a947b104b6c308189a5
   - enabled: 1
-    path: Assets/UIUX/Scenes/LevelInfinite.unity
-    guid: 201170eaf152d3e4e9b840130e73df14
-  - enabled: 1
-    path: Assets/UIUX/Scenes/GameScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/UIUX/Scenes/GameLevelINF.unity
+    guid: 25cc573f01ec5aa438be6260cf37d619
   - enabled: 1
     path: Assets/UIUX/Scenes/StartScene.unity
     guid: f580d9a36a955b94eaece1fa283ae597

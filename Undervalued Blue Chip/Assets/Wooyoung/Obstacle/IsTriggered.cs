@@ -12,7 +12,6 @@ public class IsTriggered : MonoBehaviour
     public GameObject character;
 
     public GameObject gameOverPanel;
-    public Text pointsText;
 
     public int scr;
 
@@ -56,7 +55,6 @@ public class IsTriggered : MonoBehaviour
         if (isDie == true)
         {
             gameOverPanel.SetActive(true);
-            pointsText.text = scr.ToString() + " POINTS";
         }
     }
 

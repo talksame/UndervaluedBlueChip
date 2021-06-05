@@ -8,6 +8,6 @@ public class SceneChangeInfinite : MonoBehaviour
     // Start is called before the first frame update
     public void LevelInfinite()
     {
-        SceneManager.LoadScene("LevelInfinite");
+        SceneManager.LoadScene("GameLevelinf");
     }
 }

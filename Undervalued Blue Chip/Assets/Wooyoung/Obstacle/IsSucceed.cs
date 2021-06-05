@@ -38,9 +38,6 @@ public class IsSucceed : MonoBehaviour
         {
             gameSuccessPanel.SetActive(true);
         }
-        {
-            gameSuccessPanel.SetActive(true);
-        }
     }
 
     public bool get_suc()

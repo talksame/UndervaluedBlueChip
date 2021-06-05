@@ -8,6 +8,6 @@ public class SceneChangeLevel1 : MonoBehaviour
     // Start is called before the first frame update
     public void LevelOne()
     {
-        SceneManager.LoadScene("LevelOne");
+        SceneManager.LoadScene("GameLevelone");
     }
 }
