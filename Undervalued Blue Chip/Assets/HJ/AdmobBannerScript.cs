@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using GoogleMobileAds.Api;
 
 public class AdmobBannerScript : MonoBehaviour
@@ -7,6 +7,7 @@ public class AdmobBannerScript : MonoBehaviour
     
     void Start()
     {
+        isAdsBannerLoaded = false;
         if (!isAdsBannerLoaded)
             RequestBanner();
     }
