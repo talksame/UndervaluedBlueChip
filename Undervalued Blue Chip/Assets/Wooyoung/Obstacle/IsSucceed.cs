@@ -11,6 +11,8 @@ public class IsSucceed : MonoBehaviour
     [SerializeField]
     private float successTime = 0.0f;
 
+    public GameObject gameSuccessPanel;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +33,10 @@ public class IsSucceed : MonoBehaviour
         }
 
         //Debug.Log(obstacleSpawnTime);
-
+        if (isSucceed == true)
+        {
+            gameSuccessPanel.SetActive(true);
+        }
 
     }
 

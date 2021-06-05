@@ -1,12 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class IsTriggered : MonoBehaviour
 {
     [SerializeField]
     public bool isDie = false;
 
+    public GameObject gameOverPanel;
+    public Text pointsText;
+    public int scr = GameObject.Find("character").GetComponent<Score>().get_score();
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -34,5 +38,12 @@ public class IsTriggered : MonoBehaviour
     {
         return isDie;
     }
-
+    private void Update()
+    {
+        if (isDie == true)
+        {
+            gameOverPanel.SetActive(true);
+            pointsText.text = scr.ToString() + " POINTS";
+        }
+    }
 }

@@ -14,6 +14,7 @@ public class Score : MonoBehaviour
     public float score;
     public int int_score;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,10 +27,14 @@ public class Score : MonoBehaviour
         score += Time.deltaTime*100;
 
         int_score = (int)score;
+<<<<<<< Updated upstream
         //Debug.Log(int_score);
 
 
 
+=======
+        Debug.Log(int_score);
+>>>>>>> Stashed changes
     }
 
     public int get_score()
